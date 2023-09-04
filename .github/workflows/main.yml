@@ -28,6 +28,6 @@ jobs:
                 uses: docker/build-push-action@v4
                 with:
                   context: .
-                  file: ./Dockerfile
+                  file: https://github.com/badargondal/AuctionSystemGithubActions/blob/3037e02fb207096d405da0ab93795cee90bf0376/DockerFile
                   push: true
                   tags: badargondal/auction:latest
